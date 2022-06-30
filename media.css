@@ -1,0 +1,577 @@
+@media only screen and (max-width: 319px) {
+    body {
+        display: none;
+    }
+}
+@media only screen and (max-width: 920px) and (min-width: 320px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .head {
+        width: 100%;
+        height: 89px;
+        box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.03);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .head .logo {
+        width: 100%;
+        height: 89px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 80% 10%;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .head .logo-content {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .bar {
+        width: 100%;
+        margin-left: 30px;
+        visibility: visible;
+        font-size: 28px;
+        color: #333333;
+        margin-right: 20px;
+    }
+
+    .head .nav {
+        display: none;
+    }
+
+    .login-modal,
+    .signup-modal {
+        width: 70%;
+    }
+
+    .btn {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30% auto auto;
+    }
+
+    .btn .g-btn,
+    .btn .f-btn,
+    .btn .t-btn {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sidebar {
+        position: absolute;
+        top: 15%;
+        z-index: 2;
+        display: none;
+        width: 80%;
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 20px;
+        border-radius: 4px;
+    }
+
+    .sidebar-nav {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .sidebar .fa {
+        color: red;
+        font-size: 20px;
+        float: right;
+    }
+
+    .sidebar-nav li {
+        padding: 10px;
+        border-bottom: 2px solid #27ae60;
+        list-style: none;
+    }
+
+    .sidebar-nav li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: mulish;
+        font-size: 20px;
+    }
+    .sidebar-nav a li {
+        text-decoration: none;
+        color: #fff;
+        font-family: mulish;
+        font-size: 20px;
+    }
+
+    .sidebar-nav li:hover {
+        background-color: #27ae60;
+        border-top: 2px solid #27ae60;
+        border-left: 2px solid #27ae60;
+        border-right: 2px solid #27ae60;
+    }
+
+    .link {
+        margin-left: 25px;
+        width: 97%;
+    }
+
+    #form-desktop {
+        display: none;
+    }
+
+    #form-mobile .search {
+        position: absolute;
+        z-index: 1;
+        color: #BDBDBD;
+        margin-top: 5px;
+        padding: 10px;
+    }
+
+    #form-mobile {
+        width: 98%;
+        height: 50%;
+        display: grid;
+        grid-template-rows: 50% 50%;
+        row-gap: 10px;
+        margin-top: 10px;
+        overflow-y: hidden;
+    }
+
+    #form-mobile input[type=text] {
+        background-color: #fff;
+        width: 100%;
+        padding-left: 40px;
+        height: 52px;
+        border: 1px solid #E0E0E0;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .select {
+        display: grid;
+        grid-template-columns: 55% 50%;
+        column-gap: 10px;
+        height: 7vh;
+    }
+
+    select {
+        height: 45px;
+        margin-left: 3px;
+        outline: none;
+        border-radius: 4px;
+    }
+
+    #form-mobile button {
+        height: 45px;
+        width: 60%;
+        background: #27AE60;
+        border-radius: 5px;
+        color: #fff;
+        padding: 10px 18px 10px 18px;
+        border: none;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .title {
+        width: 97%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-between;
+        row-gap: 10px;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    .title-sect {
+        width: 100%;
+    }
+    
+    .star {
+        color: #F2C94C;
+        font-size: 12px;
+    }
+    .desc {
+        margin-left: 25px;
+        margin-top: 20PX;
+        display: grid;
+        width: 50%;
+        height: fit-content;
+        grid-template-columns: auto auto;
+        row-gap: 1em;
+    }
+    .desc button {
+        height: 52px;    
+    }
+    .section2 {
+        margin-top: 30px;
+        margin-left: 25px;
+        width: 97%;
+        height: fit-content;
+    }
+    .card {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 2em;
+        width: 93%;
+        height: 190vh;
+        background-color: #fff;
+    }
+    .desc-btn {
+        display: grid;
+        width: 50%;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+    }
+    .more-desc-container {
+        margin-left: 61px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-between;
+    }
+    .more-desc-btn { 
+        width: 80%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 1em;
+        row-gap: 1em;
+    }
+    .more-desc button {
+        width: 100%;
+        height: 80px;
+        background-color: #fff;
+        border: 2px solid #f2f2f2;
+        color: #828282;
+        border-radius: 4px;
+    }
+    
+    .Reviews {
+        margin-left: 25px;
+        margin-top: 40px;
+        width: 90%;
+    }
+    .Reviews-desc {
+        margin-top: 10px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 9px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Review-card {
+        width: 99%;
+        display: grid;
+        margin-top: 20px;
+        grid-template-columns: auto auto;
+        row-gap: 1em;
+    }
+    .rev-head {
+        width: 98%;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 1em;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .newsletter input[type=email] {
+        margin-left: 25px;
+        width: 80%;
+    }
+
+    .newsletter button {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .footer {
+        width: 90%;
+        height: fit-content;
+        margin-left: 25px;
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 1em;
+        justify-items: stretch;
+        font-size: clamp(.8rem, 3vw, 1rem)
+    }
+
+    @media only screen and (max-width: 500px) and (min-width: 320px) {
+        .logo h3 {
+            font-family: mulish;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 4vw;
+            margin-left: 10px;
+            color: #27ae60;
+        }
+        .logo button {
+            width: 8vw;
+            height: 8vw;
+            border-radius: 50%;
+            font-size: 4vw;
+            background: #27ae60;
+            border: none;
+            color: #fff;
+        }
+        .link a {
+            font-size: 3.5vw;
+        }
+        .title-sect h2 {
+            width: 100%;
+            font-size: 5vw;
+        }
+        .title span {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            font-size: 3.7vw;
+            align-items: center;
+        }
+        .desc {
+            margin-left: 25px;
+            margin-top: 20PX;
+            display: grid;
+            width: 80%;
+            height: fit-content;
+            grid-template-columns: auto auto;
+            row-gap: 1em;
+        }
+        .desc-btn {
+            display: grid;
+            width: 85%;
+            grid-template-columns: auto auto;
+            column-gap: 10px;
+        }
+        .more-desc-btn { 
+            width: 100%;
+            height: fit-content;
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 1em;
+            row-gap: 1em;
+        }
+        .features {
+            width: 100%;
+            height: fit-content;
+            display: grid;
+            grid-template-columns: 100%;
+            row-gap: 1em;
+            justify-items: center;
+            margin-top: 20px;
+            margin-left: -20px;
+        }
+        .Reviews-desc {
+            margin-top: 10px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto;
+            row-gap: 9px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .Review-card {
+            width: 99%;
+            display: grid;
+            margin-top: 20px;
+            grid-template-columns: auto;
+            row-gap: 1em;
+        }
+        .content {
+            margin-left: 10px;
+        }
+
+        .social-media {
+            margin-right: 10px;
+        }
+
+        .login-bg,
+        .signup-bg {
+            overflow-y: hidden;
+        }
+
+        .login-modal {
+            width: 99%;
+            height: 100vh;
+            padding: 30px;
+        }
+
+        .signup-modal {
+            margin-top: 0;
+            width: 99%;
+            height: 100vh;
+            padding: 13px;
+        }
+    }
+
+    @media only screen and (max-width: 619px) and (min-width: 501px) {
+        .logo h3 {
+            font-family: mulish;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 4vw;
+            margin-left: 10px;
+            color: #27ae60;
+        }
+        .logo button {
+            width: 5.7vw;
+            height: 5.7vw;
+            border-radius: 50%;
+            font-size: 20px;
+            background: #27ae60;
+            border: none;
+            color: #fff;
+        }
+        .link a {
+            font-size: 3vw;
+        }
+        .desc {
+            margin-left: 25px;
+            margin-top: 20PX;
+            display: grid;
+            width: 80%;
+            height: fit-content;
+            grid-template-columns: auto auto;
+            row-gap: 1em;
+        }
+        .features {
+            width: 90%;
+            height: fit-content;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 1em;
+            row-gap: 1em;
+            justify-items: center;
+        }
+        .Review-card {
+            width: 99%;
+            display: grid;
+            margin-top: 20px;
+            grid-template-columns: auto;
+            row-gap: 1em;
+        }
+        .footer {
+            width: 90%;
+            height: fit-content;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 1em;
+            justify-items: stretch;
+        }
+
+        .footer-logo {
+            width: 70%;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+}
+@media only screen and (max-width: 920px) and (min-width: 620px) {
+    .logo h3 {
+        font-family: mulish;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 3vw;
+        margin-left: 10px;
+        color: #27ae60;
+    }
+    .logo button {
+        width: 5vw;
+        height: 5vw;
+        border-radius: 50%;
+        font-size: 20px;
+        background: #27ae60;
+        border: none;
+        color: #fff;
+    }
+    .features {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 1em;
+        justify-items: center;
+    }
+}
+
+@media only screen and (max-width: 1060px) and (min-width: 620px) {
+    .footer {
+        width: 90%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1em;
+        row-gap: 1em;
+        justify-items: stretch;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 1300px) and (min-width: 921px) {
+    .head .nav {
+        width: 70%;
+        height: 89px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .card {
+        display: grid;
+        grid-template-columns: auto 50%;
+        column-gap: 1em;
+        row-gap: 1em;
+        width: 93%;
+        height: 120vh;
+        background-color: #fff;
+    }
+    .amenities .features {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 2em;
+        justify-items: center;
+    }
+
+    .amenities .f1,
+    .amenities .f2,
+    .amenities .f3,
+    .amenities .f4,
+    .amenities .f5,
+    .amenities .f6 {
+        width: 200px;
+        height: 186px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.08);
+        border-radius: 5px;
+    }
+
+    .amenities .f1 img,
+    .amenities .f2 img,
+    .amenities .f3 img,
+    .amenities .f4 img,
+    .amenities .f5 img,
+    .amenities .f6 img {
+        width: 94px;
+        height: 94px;
+        display: block;
+        margin: auto auto;
+        margin-top: calc(166px / 4);
+        overflow-y: hidden;
+    }
+}
